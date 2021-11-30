@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  /* font-family: 'Nunito', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* color:#70d1e0, */
+  color: #121348;
+}
+
+code {
+  /* font-family: 'Nunito', sans-serif; */
+}
