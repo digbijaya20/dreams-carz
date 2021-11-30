@@ -1,5 +1,5 @@
 import {
-    Box, Button, List,
+    Box, List,
     ListItem,
     ListItemIcon,
     ListItemText,

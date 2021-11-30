@@ -1,9 +1,8 @@
-import { Box, Button, Card, CardContent, Grid, Typography } from '@material-ui/core';
-import perfectPlace from '../Assets/images/blob.svg';
+import { Box, Button, Grid, Typography } from '@material-ui/core';
+
 import mclarenBig from '../Assets/images/mclaren-orange-big.png';
 
 import { makeStyles } from '@material-ui/core/styles';
-// import DeleteIcon from '@material-ui/icons/Delete';
 
 const useStyles = makeStyles((theme) => ({
     mainHeading:{

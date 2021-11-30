@@ -1,11 +1,7 @@
 import {
     Box,
-    Button,
-    Card,
-    CardContent,
-    CardMedia,
     Container,
-    Grid,
+
     Typography,
 } from "@material-ui/core";
 
@@ -121,27 +117,27 @@ const TermAndCondition = () => {
                 </ul>
                 <Typography variant='h5' className={classes.termHeading}>Fuel Policy</Typography>
                 <ul>
-                   
+
                     <li>Fuel is client’s responsibility. We will be giving you sufficient fuel to reach the nearest fuel pump.</li>
                 </ul>
                 <Typography variant='h5' className={classes.termHeading}>Maintenance</Typography>
                 <ul>
-                   
+
                     <li>The customer is liable for maintaining the vehicle while on road. Any mechanical failures should be reported immediately.</li>
                     <li>Customers may be held responsible in case of a mechanical failure resulting due to negligence of the normal maintenance while on the trip.</li>
                 </ul>
                 <Typography variant='h5' className={classes.termHeading}>Over speeding</Typography>
                 <ul>
-                   
+
                     <li>The cars have to be ridden within permissible limits. The speed limit for each vehicle is different which will be specified at the time of booking.</li>
                     <li> You have to be under the speed limit specified by the company(i.e 100 KM/hr) or the speed limit specified by the governing authority, whichever is lesser.</li>
                     <li>If the speed limit exceed from 100 km/hr then fine amount will be Rs. 1000/-.</li>
                 </ul>
                 <Typography variant='h5' className={classes.termHeading}>Cap on riding km</Typography>
                 <ul>
-                   
+
                     <li>Maximum distance to be covered on 24 hours is 300km. for extension of distance will be charged Rupees 5/- per Km.</li>
-                    
+
                 </ul>
                 <Typography>BY AGREEING TO THIS RELEASE, THE RIDER CERTIFIES THAT HE/SHE HAS READ THIS RELEASE AND FULLY UNDERSTAND IT AND NOT RELYING ON ANY STATEMENTS OR REPRESNTATIONS OF ANY OF THE RELEASED PARTIES, AND HAVE BEEN GIVEN THE OPPORTUNITY AND SUFFICIENT TIME TO READ AND ASK QUESTIONS REGARDING THIS RELEASE.</Typography>
             </Box>

@@ -1,11 +1,7 @@
 import {
     Box,
-    Button,
-    Card,
-    CardContent,
-    CardMedia,
     Container,
-    Grid,
+  
     Typography,
   } from "@material-ui/core";
   
@@ -38,8 +34,7 @@ import {
       backgroundColor: "#70d1e0",
     },
     headingStyle: {
-      // color: "#70d1e0",
-      // fontSize: "30px",
+      
       fontWeight: "bold",
       paddingTop: "30px",
       paddingButtom: "30px",
