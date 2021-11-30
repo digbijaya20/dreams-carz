@@ -132,7 +132,7 @@ const OurFleet = () => {
 
                 {cardData.map((each) => {
                     return (
-                        <Grid item xs={12} sm={6} md={3} lg={3}>
+                        <Grid item xs={12} sm={12} md={3} lg={3}>
                             <Card className={classes.root}>
                                 <CardContent>
                                     <img src={each.image}alt={each.title} />

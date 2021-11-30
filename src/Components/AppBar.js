@@ -53,6 +53,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imge:{
     width:'200px'
+    
   }
 }));
 
