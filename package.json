@@ -1,5 +1,5 @@
 {
-  "name": "media",
+  "name": "dreamscarz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1",
-    "yarn": "^1.22.11"
+    "yarn": "^1.22.17"
   },
   "scripts": {
     "start": "react-scripts start",

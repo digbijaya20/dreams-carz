@@ -14,7 +14,9 @@ function AllLanding() {
         <PerfectPlace />
         {/* <Booking/> */}
         <Box display='flex' justifyContent='center'  alignItems='center'>
+        <a target="_blank" rel="noreferrer" href="https://forms.gle/sTbXWVcjn5zFtWVt5">
         <Button variant='contained' size='large' color='primary'>Book Now</Button>
+        </a>
         </Box>
       </Container>
       

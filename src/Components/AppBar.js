@@ -8,7 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import MenuIcon from "@material-ui/icons/Menu";
-
+import logoLandscape from "../Assets/Logos/logo_landscape.png"
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
@@ -51,6 +51,9 @@ const useStyles = makeStyles((theme) => ({
       display: "none",
     },
   },
+  imge:{
+    width:'200px'
+  }
 }));
 
 export default function NavBar() {
@@ -136,9 +139,10 @@ export default function NavBar() {
       >
         <Toolbar>
           <Link className="link-test" to="/">
-            <Typography className={classes.title} variant="h2" noWrap>
+            {/* <Typography className={classes.title} variant="h2" noWrap>
               Dreams<span style={{ color: "#EF4444" }}>Carz</span>
-            </Typography>
+            </Typography> */}
+            <img src={logoLandscape} alt="logo" className={classes.imge}/>
           </Link>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>

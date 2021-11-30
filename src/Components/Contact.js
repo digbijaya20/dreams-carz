@@ -1,16 +1,12 @@
 import {
   Box,
-  Button,
-  Card,
-  CardContent,
-  CardMedia,
   Container,
   Grid,
   Typography,
 } from "@material-ui/core";
 
 import {  makeStyles } from "@material-ui/core/styles";
-// import DeleteIcon from '@material-ui/icons/Delete';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -22,8 +18,6 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "7px",
   },
   cardStyle: {
-    // maxWidth: 350,
-    // color: 'rgba(0, 0, 0, 0.45)',
     marginTop: "30px",
     backgroundColor: "#ecf9ff",
     boxShadow: "none",
@@ -38,8 +32,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#70d1e0",
   },
   headingStyle: {
-    // color: "#70d1e0",
-    // fontSize: "30px",
+  
     fontWeight: "bold",
     paddingTop: "30px",
     paddingButtom: "30px",
@@ -48,7 +41,6 @@ const useStyles = makeStyles((theme) => ({
     color: "rgba(0, 0, 0, 0.54)",
     fontSize: "15px",
     fontWeight: "bold",
-    // marginTop:"7px",
   },
   headingBorder: {
     borderTop: "4px solid #70d1e0",

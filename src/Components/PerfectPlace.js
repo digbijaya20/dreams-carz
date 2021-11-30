@@ -6,49 +6,51 @@ import { makeStyles } from '@material-ui/core/styles';
 // import DeleteIcon from '@material-ui/icons/Delete';
 
 const useStyles = makeStyles((theme) => ({
-    // imageContainer:{
-    //       position:'relative',
-    // },
-    //   imageOBox:{
-    //     width: '30em',
-    //     height: '10em',
-    //     position: 'absolute',
-    //     right: '-5em',
-    //     top: '-12em',
-    //     zIndex: '-1',
-    //     transform: 'rotate(-30deg)',
-        
-    // },
-    // imageOStyle: {
-    //     width: '100%',
-    //     height: 'auto',
-    //     maxHeight: 'max-content',
-    //   },
     mainHeading:{
         fontWeight: 700,
         fontSize:"50px",
+        [theme.breakpoints.down("md")]: {
+            fontSize:"30px",
+            textAlign:'center'
+          },
     },
     subHeading:{
         fontWeight: "bold",
+        [theme.breakpoints.down("md")]: {
+            // fontSize:"40px",
+            textAlign:'center'
+          },
     },
     subText:{
         color:'rgba(0, 0, 0, 0.54)',
         marginTop:"7px",
         fontWeight: "bold",
+        [theme.breakpoints.down("md")]: {
+            // fontSize:"40px",
+            textAlign:'center'
+          },
     },
     cardStyle: {
         maxWidth: 350,
         color:'rgba(0, 0, 0, 0.45)',
         marginTop:"15px",
-        // boxShadow:'none',
       },
       btnStyle:{
         marginTop:"10px",
         marginRight:'10px',
+        
+      },
+      btnCont:{
+        [theme.breakpoints.down("md")]: {
+            textAlign:'center'
+          },
       },
       imageBStyle:{
           width:'650px',
-          height:'100%'
+          height:'100%',
+          [theme.breakpoints.down("md")]: {
+            width:'350px',
+          },
       }
      
 
@@ -66,12 +68,18 @@ const PerfectPlace = () =>{
                     <Typography className={classes.subText} variant="h5" color="default" >
                     Always choose the best car from our local stores or order it remotely at the best price for you and get the best quality cars for as long as you like
                     </Typography>
+                    <Box className={classes.btnCont}>
+                    <a target="_blank" rel="noreferrer" href="https://forms.gle/sTbXWVcjn5zFtWVt5">
                     <Button className={classes.btnStyle} color='primary' variant='contained'>
                         Book Your Ride 
                     </Button>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://forms.gle/sTbXWVcjn5zFtWVt5">
                     <Button className={classes.btnStyle} color='primary' variant= 'outlined'>
                         Sell Your Car 
                     </Button>
+                    </a>
+                    </Box>
                 
                 </Grid>
                 <Grid item sm={12} xs={12} md={6} lg={6} className={classes.imageContainer} >

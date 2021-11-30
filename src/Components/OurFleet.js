@@ -46,6 +46,10 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 700,
         paddingTop: "30px",
         paddingButtom: "30px",
+        [theme.breakpoints.down("md")]: {
+            fontSize:"30px",
+            textAlign:'center'
+          },
     },
     headingSubText: {
         color: "rgba(0, 0, 0, 0.54)",
@@ -140,9 +144,11 @@ const OurFleet = () => {
                                     </Typography>
 
                                 </CardContent>
+                                <a target="_blank" rel="noreferrer" href="https://forms.gle/sTbXWVcjn5zFtWVt5">
                                 <CardActions>
                                     <Button variant='contained' fullWidth color='primary' size="medium">Book Now</Button>
                                 </CardActions>
+                                </a>
                             </Card>
                         </Grid>
                     )
