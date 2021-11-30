@@ -1,5 +1,5 @@
 // import demo from './Assets/SvgImages/demo.svg'
-import { Box, Container } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 import "./App.css";
 import NavBar from "./Components/AppBar";
 import Footer from "./Components/Footer";
