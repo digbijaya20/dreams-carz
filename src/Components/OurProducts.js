@@ -67,6 +67,17 @@ const useStyles = makeStyles((theme) => ({
     },
     root: {
         width: '100%',
+       
+    },
+    root1:{
+        [theme.breakpoints.down("md")]: {
+            
+            // textAlign:'center',
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center'
+
+          },
     },
     heading: {
         fontSize: '20px',
@@ -110,7 +121,7 @@ const OurProducts = () => {
             </Box>
 
             <Grid container className={classes.root} spacing={4}>
-                <Grid item xs={12} sm={12} md={6} lg={6}>
+                <Grid item xs={12} sm={12} md={6} className={classes.root1}  lg={6}>
                     <Accordion expanded={expanded === 'panel4'}  style={{backgroundColor:'#EF4444',color:'#fff'}}  onChange={handleChange('panel4')}>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon style={{fontSize:'20px'}} />}
@@ -130,7 +141,7 @@ const OurProducts = () => {
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={6} >
+                <Grid item xs={12} sm={12} md={6} lg={6} className={classes.root1}  >
                     <Accordion expanded={expanded === 'panel1'}
                     style={{backgroundColor:'#ffb400',color:'#fff'}}
                      onChange={handleChange('panel1')}
